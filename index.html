@@ -18,21 +18,30 @@
         <a href="Support">Support</a>
     </nav>
     <div class="top"></div>
+    <section class="container">
+        <img class="banner" src="./Images/simonsaysearch6x.png">
+    </section>
+    <br>
+    <br>
     <div class="container">
-        <img class="banner" src="./Images/simonsaysearch6x.png" height="125px" width="600px">
+        <input class="search core-text" type="text" name="search" placeholder="Simon says...">
+        <button class="submit core-text" onclick="myFunction()">Search</button>
     </div>
     <br>
-    <br>
     <section class="container">
-        <input class="search core-text" type="text" name="search" placeholder="Simon says...">
-        <button class="submit core-text">Search</button>
+        <p id="results"></p>
+        
     </section>
+    <footer>
+        <a href="/Settings">Settings</a>
+        <a href="/Terms">Terms</a>
+        <a href="HireMe">Hire Me</a>
+    </footer>
 
+    <script>
+        function myFunction() {
+            document.getElementById("results").innerHTML = "No results found LOL";
+        }
+    </script>
 </body>
-<footer>
-    <a href="/Settings">Settings</a>
-    <a href="/Terms">Terms</a>
-    <a href="HireMe">Hire Me</a>
-</footer>
-
 </html>

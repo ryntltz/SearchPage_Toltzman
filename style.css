@@ -1,7 +1,7 @@
 .top{
     height: 200px;
 }
-.banner{
+banner{
     height: 125px;
     width: 600px;
     flex-shrink: 10;
@@ -63,4 +63,19 @@ footer{
     margin-left: -100px;
     font-family: 'Rubik', sans-serif;  
     font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+    img {
+         width: 450px;
+    }
+}
+@media screen and (min-width: 600px) {
+    img {
+         width: 600px;
+    }
+}
+#results{
+    color: #425584;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
 }
